@@ -40,10 +40,11 @@ h3{
 }
 h6
 {
-	margin-left: -8em;
 	color:white;
     font-weight:100;
     font-size:26px;
+    text-align: left;
+    height: 0px;
 }
 button {
     background-color:#ccc;
@@ -117,6 +118,7 @@ margin-left:45px;
     display:inline-block;
     padding-right:13px;
 }
+
 
 
 
@@ -232,8 +234,8 @@ margin-left:45px;
     margin-bottom: -0.2em;
 }
 .document{
-    width: 25px;
-    height: 25px;
+    width: 18px;
+    height: 22px;
     padding-right: 4px;
     margin-bottom: -0.2em;
 }
@@ -306,10 +308,12 @@ text-align: center;
 .img3{
   height: 60px;
   background: url(img/solution_icon_optimize-efficnt.png) no-repeat center center;
+  margin-right: -1.5em;
 }
 .img3:hover{
   height: 60px;
   background: url(img/solution_icon_optimize-efficnt_hover.png) no-repeat center center;
+   margin-right: -1.5em;
 }
 .img4{
   height: 60px;
@@ -340,6 +344,7 @@ text-align: center;
 	border-radius: 5px;
     background:#1f8fc7;
     padding: 3px 20px;
+    margin-bottom: 2em;
 }
 .SOLUTION-BUTTON:hover{
 border-radius: 5px;
@@ -368,6 +373,145 @@ border-radius: 5px;
     box-shadow: 0 0 1px 1px #888;
     text-align: center;
 }
+.newsandeventslist{
+display: inline-block;
+}
+.newsandeventslist>li{
+display: inline-block;
+ width: 270px;
+ height:230px;
+ margin: 1px 10px 10px 10px;
+ 
+ 
+}
+
+.allnews>div{
+  float: left;
+}
+.allevents1>div{
+  float: left;
+}
+.allevents2>div{
+  float: left;
+}
+.allnews>div:hover{
+  float: left;
+  color: black;
+}
+.allevents1>div:hover{
+  float: left;
+  color: black;
+}
+.allevents2>div:hover{
+  float: left;
+  color: black;
+}
+.allnews>div:before{
+  content: "";
+background:url(img/eventListIconNews.png) no-repeat;
+width: 25px;
+height: 25px;
+display: block;
+float: left;
+}
+.allevents1>div:before{
+  content: "";
+background:url(img/eventListIconPress.png) no-repeat;
+width: 25px;
+height: 25px;
+display: block;
+float: left;
+}
+.allevents2>div:before{
+content: "";
+background:url(img/eventListIconEvents.png) no-repeat;
+width: 25px;
+height: 25px;
+display: block;
+float: left;
+}
+.allnews>div:hover:before{
+  content: "";
+background:url(img/eventListIconNews_hover.png) no-repeat;
+width: 25px;
+height: 25px;
+display: block;
+float: left;
+}
+.allevents1>div:hover:before{
+  content: "";
+background:url(img/eventListIconPress_hover.png) no-repeat;
+width: 25px;
+height: 25px;
+display: block;
+float: left;
+}
+.allevents2>div:hover:before{
+content: "";
+background:url(img/eventListIconEvents_hover.png) no-repeat;
+width: 25px;
+height: 25px;
+display: block;
+float: left;
+}
+.day{
+  display: block;
+  background-color: #6495ED;
+  border-radius: 5px;
+ 
+  border-bottom: 1px dashed #FFFFFF;
+  font-size: 40px;
+ 
+  text-align: center;
+}
+.month{
+  display: block;
+  background-color: #6495ED; 
+  font-size: 20px;
+ border-radius: 5px;
+ 
+  text-align: center;
+}
+.date-event{
+  width: 55px;
+  padding:0;
+  float: left; 
+  text-align: center;
+  margin: -5px 9px 3px 0px;
+}
+.newsandeventsarticle{
+  text-align: left;
+   background-color: rgba(255, 255, 255, 0.3) ;
+  opacity: 0.8;
+  border-radius: 5px;
+  -moz-box-shadow: 0 0 0px 0px #888;
+    -webkit-box-shadow: 0 0 0px 0px#888;
+    box-shadow: 0 0 0px 0px #888;
+    padding:16px 1px 25px 5px;
+}
+.newsandeventsarticle:hover{
+  text-align: left;
+   background-color: rgba(255, 255, 255, 0.3) ;
+  opacity: 1;
+  border-radius: 5px;
+  -moz-box-shadow: 0 0 0px 0px #888;
+    -webkit-box-shadow: 0 0 0px 0px#888;
+    box-shadow: 0 0 0px 0px #888;
+}
+.newsandeventicons{
+    margin-top: 0.9em;
+    margin-left: 5px;
+  }
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -385,8 +529,9 @@ padding-bottom: 10px;
 box-shadow: 0 0 1px 1px #888;
 text-align: center;
 background-size: cover;
-
 }
+
+
 
 
 

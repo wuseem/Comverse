@@ -104,7 +104,7 @@ button {
     border-radius: 0.5em;
     background-color: #efefef;
     padding: 0em 1em;
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 2px;
 }
 .topright{
@@ -113,6 +113,7 @@ margin-left:45px;
 }
 .topright>select{ 
     border: 1px solid #ccc;
+    width: 60px;
 }
 .login:hover{
  color: skyblue; 
@@ -124,6 +125,7 @@ margin-left:45px;
     background-color:#ccc;
     display:inline-block;
     padding-right:13px;
+
 }
 
 
@@ -498,17 +500,19 @@ float: left;
 }
 .newsandeventsarticle:hover{
   text-align: left;
-   background-color: rgba(255, 255, 255, 0.3) ;
+   background-color: #FFFFFF;
   opacity: 1;
   border-radius: 5px;
   -moz-box-shadow: 0 0 0px 0px #888;
     -webkit-box-shadow: 0 0 0px 0px#888;
     box-shadow: 0 0 0px 0px #888;
+    color: black;
 }
 .newsandeventicons{
     margin-top: 0.9em;
     margin-left: 5px;
   }
+
 
 
 
@@ -537,6 +541,204 @@ box-shadow: 0 0 1px 1px #888;
 text-align: center;
 background-size: cover;
 }
+.success-stories{
+display:flex;
+ margin: 35px 0 35px 0px;
+
+}
+.success-stories>li
+{
+	 width: 320px;
+	 height: 300px;
+	 display: inline-block;
+	 background-color: white;
+	 margin: 0 0 0px 10px;
+
+}
+.success-stories>li+li+li
+{
+	 width: 230px;
+	
+}
+.success-text1>div{
+	height: 110px;
+	    text-align: left;
+    color: black;
+    font-size: 17px;
+    font-family: serif;
+        border-bottom: 1px solid grey;
+    width: 300px;
+    margin: 10px 0 0 10px;
+}
+.success-text1>div:before{
+	
+  content: "";
+background:url(img/CB-JP-face.png) no-repeat;
+height: 100px;
+width: 100px;
+display: block;
+float: left;
+margin: 0 5px 0px 0px;
+border-radius: 5px;
+
+}
+.person-details {
+    display: inline-block;
+    width: 300px;
+}
+
+.person-details > p {
+  font-size: 14px;
+    color: black;
+    float: left;
+    height: 0px;
+     }
+.person-details > p+p {
+  display: inline-block;
+
+     }
+
+.person-details > p > a {
+    color: skyblue;
+    text-align: left;
+ display: inline-block;
+
+}
+.logos1{
+  background: rgb(240,240,240);
+  height: 85px;
+    margin: -11px 0px 0px 0px;
+       padding-top: 14px;
+    
+}
+
+.person-logo {
+    float: right;
+      margin: -40px 0px 0px 0px;
+
+}
+.logos1>div{
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.logos1>div > img {
+       width: 97px;
+    height: 81px;
+}
+.logopic2 {
+    margin: 0 10px 0 10px;
+}
+.success-text2>div{
+  height: 110px;
+      text-align: left;
+    color: black;
+    font-size: 17px;
+    font-family: serif;
+        border-bottom: 1px solid grey;
+    width: 300px;
+    margin: 20px 0 0 10px;
+}
+.success-text2>div:before{
+  
+  content: "";
+background:url(img/JT-GM-face.png) no-repeat;
+height: 100px;
+width: 100px;
+display: block;
+float: left;
+margin: 0 5px 0px 0px;
+border-radius: 5px;
+
+}
+.logos2{
+  background: rgb(240,240,240);
+  height: 100px;
+    margin: -14px 0px 0px 0px;
+       padding-top: 14px;
+
+    
+}
+.logos2>div{
+  display: inline-block;
+  background-color: #fff;
+   border-radius: 5px;
+}
+.logos2>div > img {
+       width: 97px;
+    height: 81px;
+
+}
+.person-logo2 {
+    float: right;
+      margin: -15px 10px 0px 0px;
+
+}
+
+.logos3{
+  background: rgb(240,240,240);
+  height: 85px;
+        margin: 18px 0px 0px 0px;
+    padding-top: 13px;
+    
+}
+.logos3>div{
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.logos3>div > img {
+       width: 108px;
+    height: 81px;
+}
+.person-details3 {
+    display: inline-block;
+    width: 230px;
+}
+
+.person-details3 > p {
+  font-size: 14px;
+    color: black;
+    float: left;
+    height: 0px;
+     }
+.person-details3 > p+p {
+  display: inline-block;
+margin: 13px 0 0 15px;
+     }
+
+.person-details3 > p > a {
+    color: skyblue;
+    text-align: left;
+ display: inline-block;
+    margin: 0 0 0 15px;
+}
+.success-text3>div{
+  height: 110px;
+      text-align: left;
+    color: black;
+    font-size: 17px;
+    font-family: serif;
+    border-bottom: 1px solid grey;
+    width:180px;
+    margin: 20px 0 0 15px;
+}
+.person-logo3 {
+    float: right;
+      margin: -15px 10px 0px 0px;
+
+}
+.logopic4 {
+  margin: 0 4px 0 0 ;
+  
+}
+.logopic5 {
+  margin: 0 0px 0 4px ;
+  
+}
+
+
+
 
 
 

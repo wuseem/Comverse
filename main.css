@@ -737,6 +737,19 @@ margin: 13px 0 0 15px;
   margin: 0 0px 0 4px ;
   
 }
+.quote{
+  background: url(img/quotegrey.png) no-repeat;
+
+  height: 22px;
+  width: 32px;
+}
+.quote:hover{
+
+  background: url(img/quoteblue.png);
+   height: 22px;
+  width: 32px;
+
+}
 
 
 

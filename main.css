@@ -63,6 +63,7 @@ button {
 												                    	/*         HEADER         */
 												                  	/**************************/
 .comverse-header{
+	text-align: center;
 	width: 100%;
     height: 75px;
     position: fixed; 

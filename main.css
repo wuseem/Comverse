@@ -75,10 +75,14 @@ button {
 }
 .comverse-logo{
 	display: inline-block;
-    margin-left: 115px;
+
 }
 .navbar{
 	display: inline-block;
+}
+.nav{
+	padding: inherit;
+
 }
 .nav>li{
    display: inline-block;
@@ -110,7 +114,7 @@ button {
 }
 .topright{
 display: inline-block;
-margin-left:45px;
+margin-left:10px;
 }
 .topright>select{ 
     border: 1px solid #ccc;
@@ -385,13 +389,13 @@ border-radius: 5px;
 }
 .newsandeventslist{
 display: inline-block;
-margin: -20px 0px 20px 0px;
+    padding: inherit;
 }
 .newsandeventslist>li{
 display: inline-block;
- width: 270px;
+ width: 280px;
  height:230px;
- margin: 1px 10px 10px 10px;
+margin: 1px 0px 15px 32px;
  
  
 }
@@ -546,20 +550,21 @@ background-size: cover;
 .success-stories{
 display:flex;
  margin: 35px 0 35px 0px;
+     padding: inherit;
 
 }
 .success-stories>li
 {
-	 width: 320px;
+	 width: 340px;
 	 height: 300px;
 	 display: inline-block;
 	 background-color: white;
-	 margin: 0 0 0px 10px;
+	 margin: 0 0 0px 25px;
 
 }
 .success-stories>li+li+li
 {
-	 width: 230px;
+	 width: 210px;
 	
 }
 .success-text1>div{
@@ -572,6 +577,18 @@ display:flex;
     width: 300px;
     margin: 10px 0 0 10px;
 }
+.success-text1>div>blockquote{
+  height: 110px;
+      text-align: left;
+    color: black;
+    font-size: 17px;
+    font-family: serif;
+        border-bottom: 1px solid grey;
+    width: 300px;
+    margin: 10px 0 0 10px;
+    display: inline;
+}
+
 .success-text1>div:before{
 	
   content: "";
@@ -610,7 +627,7 @@ border-radius: 5px;
   background: rgb(240,240,240);
   height: 85px;
     margin: -11px 0px 0px 0px;
-       padding-top: 14px;
+       padding-top: 16px;
     
 }
 
@@ -625,7 +642,7 @@ border-radius: 5px;
   border-radius: 5px;
 }
 .logos1>div > img {
-       width: 97px;
+       width: 102px;
     height: 81px;
 }
 .logopic2 {
@@ -641,6 +658,17 @@ border-radius: 5px;
     width: 300px;
     margin: 20px 0 0 10px;
 }
+.success-text2>div>blockquote{
+  height: 110px;
+      text-align: left;
+    color: black;
+    font-size: 17px;
+    font-family: serif;
+        border-bottom: 1px solid grey;
+    width: 300px;
+    margin: 20px 0 0 10px;
+    display: inline;
+    }
 .success-text2>div:before{
   
   content: "";
@@ -656,8 +684,7 @@ border-radius: 5px;
 .logos2{
   background: rgb(240,240,240);
   height: 100px;
-    margin: -14px 0px 0px 0px;
-       padding-top: 14px;
+      
 
     
 }
@@ -667,7 +694,7 @@ border-radius: 5px;
    border-radius: 5px;
 }
 .logos2>div > img {
-       width: 97px;
+       width: 102px;
     height: 81px;
 
 }
@@ -681,7 +708,7 @@ border-radius: 5px;
   background: rgb(240,240,240);
   height: 85px;
         margin: 18px 0px 0px 0px;
-    padding-top: 13px;
+    padding-top: 16px;
     
 }
 .logos3>div{
@@ -690,7 +717,7 @@ border-radius: 5px;
   border-radius: 5px;
 }
 .logos3>div > img {
-       width: 108px;
+       width: 97px;
     height: 81px;
 }
 .person-details3 {
@@ -707,6 +734,8 @@ border-radius: 5px;
 .person-details3 > p+p {
   display: inline-block;
 margin: 13px 0 0 15px;
+width: 102px;
+
      }
 
 .person-details3 > p > a {
@@ -725,17 +754,28 @@ margin: 13px 0 0 15px;
     width:180px;
     margin: 20px 0 0 15px;
 }
+.success-text3>div>blockquote{
+  height: 110px;
+      text-align: left;
+    color: black;
+    font-size: 17px;
+    font-family: serif;
+    border-bottom: 1px solid grey;
+    width:180px;
+    margin: 20px 0 0 15px;
+    display: inline;
+}
 .person-logo3 {
     float: right;
-      margin: -15px 10px 0px 0px;
+      margin: -15px 21px 0px 0px;
 
 }
 .logopic4 {
-  margin: 0 4px 0 0 ;
+  margin: 1px 7px 0 0 ;
   
 }
 .logopic5 {
-  margin: 0 0px 0 4px ;
+  margin: 1px 0px 0 4px ;
   
 }
 .quote{
@@ -743,12 +783,17 @@ margin: 13px 0 0 15px;
 
   height: 22px;
   width: 32px;
+  
+  display: inline-block;
+
 }
 .quote:hover{
 
   background: url(img/quoteblue.png);
    height: 22px;
   width: 32px;
+
+display: inline-block;
 
 }
 

@@ -1,8 +1,8 @@
 
 
-													                    /**************************/
-													                   /*           ALL          */
-												                  	/**************************/
+                                              /**************************/
+                                             /*           ALL          */
+                                            /**************************/
 
 body {
     margin: 0 auto;
@@ -11,7 +11,6 @@ body {
     font-weight: 200;
     
 }
-
 footer {
     background-color: #2B2B2B;
     padding: 0;
@@ -48,7 +47,7 @@ h5
 }
 h6
 {
-	color:white;
+  color:white;
     font-weight:100;
     font-size:26px;
     text-align: left;
@@ -60,29 +59,29 @@ button {
 
 }
 
-           							            		      	/**************************/
-												                    	/*         HEADER         */
-												                  	/**************************/
+                                                /**************************/
+                                              /*         HEADER         */
+                                            /**************************/
 .comverse-header{
-	text-align: center;
-	width: 100%;
+  text-align: center;
+  width: 100%;
     height: 75px;
     position: fixed; 
     top: 0;
     left: 0;
     z-index: 1000; 
     box-shadow: 0 0 1px 1px rgba(1, 6,0 , 4);
-	background:white;
+  background:white;
 }
 .comverse-logo{
-	display: inline-block;
+  display: inline-block;
 
 }
 .navbar{
-	display: inline-block;
+  display: inline-block;
 }
 .nav{
-	padding: inherit;
+  padding: inherit;
 
 }
 .nav>li{
@@ -99,10 +98,10 @@ button {
   padding-left: 0.6em;
 }
 .nav>li>a,.topright>a{
-	color: gray;
+  color: gray;
 }
 .nav>li:hover>a{
-	color: skyblue;
+  color: skyblue;
 }
 .searchtext{
     border: 0.1em solid #ccc;
@@ -139,14 +138,14 @@ margin-left:10px;
 
 
 
-													                         /**************************/
-													                         /*********SECTIONS*********/
-													                         /**************************/
+                                                   /**************************/
+                                                   /*********SECTIONS*********/
+                                                   /**************************/
 
 
-													                         /**************************/
-													                         /*         BANNER         */
-													                         /**************************/
+                                                   /**************************/
+                                                   /*         BANNER         */
+                                                   /**************************/
 
 
 
@@ -184,17 +183,17 @@ margin-left:10px;
 }
 .Squares
 {
-	margin-left:-2em;
+  margin-left:-2em;
 }
 .Squares>a>li{
-	display: inline-block;
-	border-radius: 2px;
+  display: inline-block;
+  border-radius: 2px;
     background: #3498db;
     padding: 8px 8px;
     box-shadow: 0px 1px 3px #666666;
 }
 .Squares>a+a>li{
-	display: inline-block;
+  display: inline-block;
     border-radius: 2px;
     background: white;
     padding: 8px 8px;
@@ -267,9 +266,9 @@ margin-left:10px;
   opacity: 0.80;
 }
 
-													                       /**************************/
-													                       /*        SOLUTION        */
-													                       /**************************/
+                                                 /**************************/
+                                                 /*        SOLUTION        */
+                                                 /**************************/
 
 .section-solutions{
 background:#46a2c7;
@@ -356,7 +355,7 @@ text-align: center;
 }
 
 .SOLUTION-BUTTON{
-	border-radius: 5px;
+  border-radius: 5px;
     background:#1f8fc7;
     padding: 3px 20px;
     margin-bottom: 2em;
@@ -369,9 +368,9 @@ border-radius: 5px;
 
 }
 
-												                              	/**************************/
-												                              	/*     News AND EVENTS    */
-												                        	      /**************************/
+                                                        /**************************/
+                                                        /*     News AND EVENTS    */
+                                                        /**************************/
 
 .section-newsandevents{ 
     background: url('img/news-and-events-bg.jpg') no-repeat center center fixed;
@@ -380,10 +379,10 @@ border-radius: 5px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     text-align: center;
-	display:block;
-	padding-top:15px;
-	padding-bottom: 20px;
-	-moz-box-shadow: 0 0 1px 1px #888;
+  display:block;
+  padding-top:15px;
+  padding-bottom: 20px;
+  -moz-box-shadow: 0 0 1px 1px #888;
     -webkit-box-shadow: 0 0 1px 1px#888;
     box-shadow: 0 0 1px 1px #888;
     text-align: center;
@@ -392,13 +391,18 @@ border-radius: 5px;
 display: inline-block;
     padding: inherit;
 }
+
 .newsandeventslist>li{
 display: inline-block;
  width: 280px;
  height:230px;
-margin: 1px 0px 15px 32px;
- 
- 
+margin: 0 0 0 0;
+}
+.newsandeventslist>li+li{
+  margin: 0 55px 0 55px;
+}
+.newsandeventslist>li+li+li{
+margin: 0 0 0 0;
 }
 
 .allnews>div{
@@ -533,9 +537,9 @@ float: left;
 
 
 
-													                               /**************************/
-												                                 /*    SUCCESS STORIES     */
-													                               /**************************/
+                                                         /**************************/
+                                                         /*    SUCCESS STORIES     */
+                                                         /**************************/
 .section-stories
 {
 background:rgb(240,240,240) ;
@@ -554,23 +558,32 @@ display:flex;
      padding: inherit;
 
 }
+.section-stories>section>div
+{
+
+  padding-top: 20px;
+}
+
+
 .success-stories>li
 {
-	 width: 340px;
-	 height: 300px;
-	 display: inline-block;
-	 background-color: white;
-	 margin: 0 0 0px 25px;
+   width: 340px;
+   height: 300px;
+   display: inline-block;
+   background-color: white;
+   margin: 0 35px 2px 0px;
+
 
 }
 .success-stories>li+li+li
 {
-	 width: 210px;
-	
+   width: 210px;
+   margin: 0 0 0 0;
+  
 }
 .success-text1>div{
-	height: 110px;
-	    text-align: left;
+  height: 110px;
+      text-align: left;
     color: black;
     font-size: 17px;
     font-family: serif;
@@ -591,7 +604,7 @@ display:flex;
 }
 
 .success-text1>div:before{
-	
+  
   content: "";
 background:url(img/CB-JP-face.png) no-repeat;
 height: 100px;
@@ -813,9 +826,9 @@ display: inline-block;
 
 
 
-												                                	/**************************/
-												                                	/*         FOOTER         */
-												                                	/**************************/
+                                                          /**************************/
+                                                          /*         FOOTER         */
+                                                          /**************************/
 
 
 
@@ -882,7 +895,7 @@ display: inline-block;
 }
 
 .footer-box-content:hover >div+div {
-	text-decoration: underline;
+  text-decoration: underline;
     color:white;
 }
 

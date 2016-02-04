@@ -97,14 +97,19 @@ button {
   margin-right: 7px;
   padding-left: 0.6em;
 }
-.nav>li>a,.topright>a{
+.nav>li>a{
   color: gray;
+}
+.topright>a{
+  color: gray;
+
 }
 .nav>li:hover>a{
   color: skyblue;
+
 }
 .searchtext{
-    border: 0.1em solid #ccc;
+    border-right: 0.1em solid #ccc;
     width: 132px;
     border-radius: 0.5em;
     background-color: #efefef;
@@ -118,10 +123,21 @@ margin-left:10px;
 }
 .topright>select{ 
     border: 1px solid #ccc;
-    width: 60px;
+    width: 66px;
+        margin: 0 10px 0 0;
+
+
+}
+.login{
+ border-left: 0.1em solid #ccc;
+
+  padding-left: 1em;
+
 }
 .login:hover{
+
  color: skyblue; 
+ text-decoration: underline;
 }
 .wrapper {
     border:1px solid #ccc;
@@ -151,13 +167,13 @@ margin-left:10px;
 
 .section-container {
     padding: 0;
-    max-width: 960px;
+    max-width: 940px;
     margin: 0 auto;
 }
 
 .section-banner{
     padding-top:75px;   
-    background: url('img/slide-bg-complexity.jpg') no-repeat center center fixed; ;
+    background: url('../img/slide-bg-complexity.jpg') no-repeat center center fixed; ;
     background-repeat: none;
     background-size:cover;
     -webkit-background-size: cover;
@@ -216,7 +232,7 @@ margin-left:10px;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   display: inline-block;
-  width: 270px;
+  width: 263px;
   cursor: pointer;
   padding: 10px 15px;
   margin-right: 20px;
@@ -291,10 +307,8 @@ text-align: center;
 }
 .do-list li{
   display: inline-block;
-  width: 150px;
-  height: 150px;
-  margin-left: 2px;
-  margin-right: 2px;
+  width: 152px;
+  height: 152px;
   text-align: center;
   vertical-align: middle;
 }
@@ -303,57 +317,77 @@ text-align: center;
   height: 60px;
   text-align: center;
 }
-.img1{
+
+
+
+.img1>div{
   height: 60px;
-  background: url(img/solution_icon_smart-money.png) no-repeat center center;
+  background: url(../img/solution_icon_smart-money.png) no-repeat center center;
 }
-.img1:hover{
+.img1:hover div{
   height: 60px;
-  background: url(img/solution_icon_smart-money_hover.png) no-repeat center center;
+  background: url(../img/solution_icon_smart-money_hover.png) no-repeat center center;
 }
-.img2{
+.img2>div{
   height: 60px;
-  background: url(img/solution_icon_biz-analitics.png) no-repeat center center;
+  background: url(../img/solution_icon_biz-analitics.png) no-repeat center center;
 }
-.img2:hover{
+.img2:hover div{
   height: 60px;
-  background: url(img/solution_icon_biz-analitics_hover.png) no-repeat center center;
+  background: url(../img/solution_icon_biz-analitics_hover.png) no-repeat center center;
 }
-.img3{
+.img3>div{
   height: 60px;
-  background: url(img/solution_icon_optimize-efficnt.png) no-repeat center center;
+  background: url(../img/solution_icon_optimize-efficnt.png) no-repeat center center;
   margin-right: -1.5em;
 }
-.img3:hover{
+.img3:hover div{
   height: 60px;
-  background: url(img/solution_icon_optimize-efficnt_hover.png) no-repeat center center;
+  background: url(../img/solution_icon_optimize-efficnt_hover.png) no-repeat center center;
    margin-right: -1.5em;
 }
-.img4{
+.img4>div{
   height: 60px;
-  background: url(img/solution_icon_biz-transform.png) no-repeat center center;
+  background: url(../img/solution_icon_biz-transform.png) no-repeat center center;
 }
-.img4:hover{
+.img4:hover div{
   height: 60px;
-  background: url(img/solution_icon_biz-transform_hover.png) no-repeat center center;
+  background: url(../img/solution_icon_biz-transform_hover.png) no-repeat center center;
 }
-.img5{
+.img5>div{
   height: 60px;
-  background: url(img/solution_icon_personal.png) no-repeat center center;
+  background: url(../img/solution_icon_personal.png) no-repeat center center;
 }
-.img5:hover{
+.img5:hover div{
   height: 60px;
-  background: url(img/solution_icon_personal_hover.png) no-repeat center center;
+  background: url(../img/solution_icon_personal_hover.png) no-repeat center center;
 }
-.img6{
+.img6>div{
   height: 60px;
-  background: url(img/solution_icon_diti-cx.png) no-repeat center center;
+  background: url(../img/solution_icon_diti-cx.png) no-repeat center center;
 }
-.img6:hover{
+.img6:hover div{
   height: 60px;
-  background: url(img/solution_icon_diti-cx_hover.png) no-repeat center center;
+  background: url(../img/solution_icon_diti-cx_hover.png) no-repeat center center;
 }
-
+.img1:hover .texthover{
+  color:rgb(77, 196, 255);
+  }
+.img2:hover .texthover{
+  color:rgb(77, 196, 255);
+  }
+  .img3:hover .texthover{
+  color:rgb(77, 196, 255);
+  }
+  .img4:hover .texthover{
+  color:rgb(77, 196, 255);
+  }
+  .img5:hover .texthover{
+  color:rgb(77, 196, 255);
+  }
+  .img6:hover .texthover{
+  color:rgb(77, 196, 255);
+  }
 .SOLUTION-BUTTON{
   border-radius: 5px;
     background:#1f8fc7;
@@ -373,7 +407,7 @@ border-radius: 5px;
                                                         /**************************/
 
 .section-newsandevents{ 
-    background: url('img/news-and-events-bg.jpg') no-repeat center center fixed;
+    background: url('../img/news-and-events-bg.jpg') no-repeat center center fixed;
     background-repeat: none;
     background-size:cover;
     -webkit-background-size: cover;
@@ -394,7 +428,7 @@ display: inline-block;
 
 .newsandeventslist>li{
 display: inline-block;
- width: 280px;
+ width: 272px;
  height:230px;
 margin: 0 0 0 0;
 }
@@ -428,7 +462,7 @@ margin: 0 0 0 0;
 }
 .allnews>div:before{
   content: "";
-background:url(img/eventListIconNews.png) no-repeat;
+background:url(../img/eventListIconNews.png) no-repeat;
 width: 25px;
 height: 25px;
 display: block;
@@ -436,7 +470,7 @@ float: left;
 }
 .allevents1>div:before{
   content: "";
-background:url(img/eventListIconPress.png) no-repeat;
+background:url(../img/eventListIconPress.png) no-repeat;
 width: 25px;
 height: 25px;
 display: block;
@@ -444,7 +478,7 @@ float: left;
 }
 .allevents2>div:before{
 content: "";
-background:url(img/eventListIconEvents.png) no-repeat;
+background:url(../img/eventListIconEvents.png) no-repeat;
 width: 25px;
 height: 25px;
 display: block;
@@ -452,7 +486,7 @@ float: left;
 }
 .allnews>div:hover:before{
   content: "";
-background:url(img/eventListIconNews_hover.png) no-repeat;
+background:url(../img/eventListIconNews_hover.png) no-repeat;
 width: 25px;
 height: 25px;
 display: block;
@@ -460,7 +494,7 @@ float: left;
 }
 .allevents1>div:hover:before{
   content: "";
-background:url(img/eventListIconPress_hover.png) no-repeat;
+background:url(../img/eventListIconPress_hover.png) no-repeat;
 width: 25px;
 height: 25px;
 display: block;
@@ -468,7 +502,7 @@ float: left;
 }
 .allevents2>div:hover:before{
 content: "";
-background:url(img/eventListIconEvents_hover.png) no-repeat;
+background:url(../img/eventListIconEvents_hover.png) no-repeat;
 width: 25px;
 height: 25px;
 display: block;
@@ -554,7 +588,7 @@ background-size: cover;
 }
 .success-stories{
 display:flex;
- margin: 35px 0 35px 0px;
+ margin: 36px 0 36px 0px;
      padding: inherit;
 
 }
@@ -571,7 +605,7 @@ display:flex;
    height: 300px;
    display: inline-block;
    background-color: white;
-   margin: 0 35px 2px 0px;
+   margin: 0 36px 2px 0px;
 
 
 }
@@ -590,6 +624,7 @@ display:flex;
         border-bottom: 1px solid grey;
     width: 300px;
     margin: 10px 0 0 10px;
+    
 }
 .success-text1>div>blockquote{
   height: 110px;
@@ -601,17 +636,18 @@ display:flex;
     width: 300px;
     margin: 10px 0 0 10px;
     display: inline;
+
 }
 
 .success-text1>div:before{
   
   content: "";
-background:url(img/CB-JP-face.png) no-repeat;
+background:url(../img/CB-JP-face.png) no-repeat;
 height: 100px;
 width: 100px;
 display: block;
 float: left;
-margin: 0 5px 0px 0px;
+margin: 0 6px 0px 0px;
 border-radius: 5px;
 
 }
@@ -640,7 +676,7 @@ border-radius: 5px;
 .logos1{
   background: rgb(240,240,240);
   height: 85px;
-    margin: -11px 0px 0px 0px;
+    margin: -10px 0px 0px 0px;
        padding-top: 16px;
     
 }
@@ -656,7 +692,7 @@ border-radius: 5px;
   border-radius: 5px;
 }
 .logos1>div > img {
-       width: 102px;
+       width: 100px;
     height: 81px;
 }
 .logopic2 {
@@ -686,12 +722,12 @@ border-radius: 5px;
 .success-text2>div:before{
   
   content: "";
-background:url(img/JT-GM-face.png) no-repeat;
+background:url(../img/JT-GM-face.png) no-repeat;
 height: 100px;
 width: 100px;
 display: block;
 float: left;
-margin: 0 5px 0px 0px;
+margin: 0 6px 0px 0px;
 border-radius: 5px;
 
 }
@@ -708,7 +744,7 @@ border-radius: 5px;
    border-radius: 5px;
 }
 .logos2>div > img {
-       width: 102px;
+       width: 100px;
     height: 81px;
 
 }
@@ -747,7 +783,7 @@ border-radius: 5px;
      }
 .person-details3 > p+p {
   display: inline-block;
-margin: 13px 0 0 15px;
+margin: 14px 0 0 16px;
 width: 102px;
 
      }
@@ -756,7 +792,7 @@ width: 102px;
     color: skyblue;
     text-align: left;
  display: inline-block;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 16px;
 }
 .success-text3>div{
   height: 110px;
@@ -766,7 +802,7 @@ width: 102px;
     font-family: serif;
     border-bottom: 1px solid grey;
     width:180px;
-    margin: 20px 0 0 15px;
+    margin: 20px 0 0 16px;
 }
 .success-text3>div>blockquote{
   height: 110px;
@@ -776,24 +812,24 @@ width: 102px;
     font-family: serif;
     border-bottom: 1px solid grey;
     width:180px;
-    margin: 20px 0 0 15px;
+    margin: 20px 0 0 16px;
     display: inline;
 }
 .person-logo3 {
     float: right;
-      margin: -15px 21px 0px 0px;
+      margin: -14px 20px 0px 0px;
 
 }
 .logopic4 {
-  margin: 1px 7px 0 0 ;
+  margin: 0px 6px 0 0 ;
   
 }
 .logopic5 {
-  margin: 1px 0px 0 4px ;
+  margin: 0px 0px 0 4px ;
   
 }
 .quote{
-  background: url(img/quotegrey.png) no-repeat;
+  background: url(../img/quotegrey.png) no-repeat;
 
   height: 22px;
   width: 32px;
@@ -803,7 +839,7 @@ width: 102px;
 }
 .quote:hover{
 
-  background: url(img/quoteblue.png);
+  background: url(../img/quoteblue.png);
    height: 22px;
   width: 32px;
 
@@ -839,9 +875,9 @@ display: inline-block;
 }
 
 .footer-block {
-    max-width: 960px;
+    max-width: 940px;
     min-width: 800px;
-    width: 960px;
+    width: 940px;
     margin: 0 auto;
 }
 
@@ -871,6 +907,8 @@ display: inline-block;
 
 .footer-links-column a:hover {
     color: white;
+    text-decoration: underline;
+
 }
 
 .footer-box {
@@ -949,10 +987,10 @@ display: inline-block;
 
 #email {
     width: 200px;
-    line-height: 2.5em;
+    line-height: 2.3em;
     border-radius: 3px;
     border: none;
-    margin: 0 5px;
+    margin:0 5px 0 5px;
     padding-left: 8px;
     color: grey;
     outline:none;
@@ -965,7 +1003,7 @@ display: inline-block;
   color: white;
   line-height: 2.3em;
   margin-left: -45px;
-  padding: 2px 10px;
+  padding: 1px 10px;
   position: absolute;
   cursor: pointer;
 }
@@ -989,7 +1027,7 @@ display: inline-block;
 
 
 .ico-youtube {
-    background: url(img/youtube.png) no-repeat;
+    background: url(../img/youtube.png) no-repeat;
     content: "";
     display: inline-block;
     width: 40px;
@@ -999,7 +1037,7 @@ display: inline-block;
 }
 
 .ico-twitter {
-    background: url(img/twitter.png) no-repeat;
+    background: url(../img/twitter.png) no-repeat;
     content: "";
     display: inline-block;
     width: 40px;
@@ -1008,7 +1046,7 @@ display: inline-block;
     padding-left:1px;
 }
 .ico-facebook {
-    background: url(img/facebook.png) no-repeat;
+    background: url(../img/facebook.png) no-repeat;
     content: "";
     display: inline-block;
     width: 40px;
@@ -1018,7 +1056,7 @@ display: inline-block;
 }
 
 .ico-linkedin {
-    background: url(img/in.png) no-repeat;
+    background: url(../img/in.png) no-repeat;
     content: "";
     display: inline-block;
     width: 40px;
@@ -1027,7 +1065,7 @@ display: inline-block;
     padding-left:1px;
 }
 .ico-google {
-    background: url(img/google.png) no-repeat;
+    background: url(../img/google.png) no-repeat;
     content: "";
     display: inline-block;
     width: 40px;
@@ -1036,7 +1074,7 @@ display: inline-block;
     padding-left:1px;
 }
 .ico-youtube:hover {
-    background: url(img/youtubehover.png) no-repeat;
+    background: url(../img/youtubehover.png) no-repeat;
     display: inline-block;
   width: 40px;
     height: 43px;
@@ -1045,7 +1083,7 @@ display: inline-block;
 }
 
 .ico-twitter:hover {
-    background: url(img/twitterhover.png) no-repeat;
+    background: url(../img/twitterhover.png) no-repeat;
     display: inline-block;
    width: 40px;
     height: 43px;
@@ -1054,7 +1092,7 @@ display: inline-block;
 }
 
 .ico-linkedin:hover {
-    background: url(img/inhover.png) no-repeat;
+    background: url(../img/inhover.png) no-repeat;
     display: inline-block;
     width: 40px;
     height: 43px;
@@ -1062,7 +1100,7 @@ display: inline-block;
     padding-left:1px;
 }
 .ico-facebook:hover {
-    background: url(img/facebookhover.png) no-repeat;
+    background: url(../img/facebookhover.png) no-repeat;
     display: inline-block;
     width: 40px;
     height: 43px;
@@ -1071,7 +1109,7 @@ display: inline-block;
 }
 
 .ico-google:hover {
-    background: url(img/googlehover.png) no-repeat;
+    background: url(../img/googlehover.png) no-repeat;
     display: inline-block;
     width: 40px;
     height: 43px;
@@ -1085,7 +1123,7 @@ display: inline-block;
 
     margin-right: 0px;
     font-size: 14px;
-    width: 676px;
+    width: 656px;
     height: 20px;
     float: left;
     margin-top:58px;

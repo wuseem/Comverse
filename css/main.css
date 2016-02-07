@@ -1392,7 +1392,7 @@ margin: 0 0 0 0;
 }
 .newsandeventsarticle
 {
-	font-size: 36px;
+	font-size: 22px;
 }
 .day{
   display: block;
@@ -1429,7 +1429,7 @@ h1{
 .cube{
 	display: block;
 	margin-bottom: 20px;
-	width: 500px;
+	width: 100%;
   cursor: pointer;
   padding: 10px 15px;
   margin-right: 20px;
@@ -1481,5 +1481,9 @@ h3{
 }
 #email{
 	margin-left: 0px;
+}
+.success-text1>a>div>blockquote {
+
+  font-size: 14px;
 }
 }

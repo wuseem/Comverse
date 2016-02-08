@@ -1405,14 +1405,15 @@ margin: auto;
   
 }
 .success-text1>a>div>blockquote{
-font-size: 14px;
+font-size: 10px;
 
 }
 .success-text2>a>div>blockquote{
-font-size: 14px;
+font-size: 10px;
 
 }
 }
+
 @media all and (max-width:700px) {
 .success-stories
 {

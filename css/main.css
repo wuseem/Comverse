@@ -1263,7 +1263,7 @@ input[type=checkbox] {
     label.mobile-nav {
         position: absolute;
         top: 20px;
-        left: 260px;
+        left: 300px;
         margin: 5px;
         padding:5px;
     }
@@ -1287,12 +1287,12 @@ input[type=checkbox] {
         text-transform: uppercase;
         font: 1.2rem "Open Sans";
         position: absolute;
-        left: 265px;
+        left: 300px;
         top:0;
         z-index: 1;
         width: 100%;
         padding: 0;
-        width:260px;
+        width:200px;
 
     }
 
@@ -1360,7 +1360,7 @@ input[type=checkbox] {
 }
 .toprighmob{
  display: inline-block;
- margin-left: 40px;
+ margin-left: 20px;
 }
 .cubes{
   display:block;
@@ -1420,8 +1420,12 @@ margin: auto;
 .logos1{
   margin: 0px 0px 0px 0px;
 }
+.success-text1>a>div{
+  width: 320px;
 
-  .success-text1>a>div {
-    height: 180px;
-  }
+}
+.success-text2>a>div{
+width: 320px;
+}
+
 }

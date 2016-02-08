@@ -1404,16 +1404,8 @@ margin: auto;
    display: none;
   
 }
-.success-text1>a>div>blockquote{
-font-size: 2px;
 
 }
-.success-text2>a>div>blockquote{
-font-size: 2px;
-
-}
-}
-
 @media all and (max-width:700px) {
 .success-stories
 {
@@ -1429,5 +1421,7 @@ font-size: 2px;
   margin: 0px 0px 0px 0px;
 }
 
+  .success-text1>a>div {
+    height: 130px;
   }
 }

@@ -1077,7 +1077,7 @@ display: inline-block;
 
 .ico-youtube {
     background: url(../img/youtube.png) no-repeat;
-    content: "";
+    content: "youtube";
     display: inline-block;
     width: 40px;
     height: 43px;
@@ -1087,7 +1087,7 @@ display: inline-block;
 
 .ico-twitter {
     background: url(../img/twitter.png) no-repeat;
-    content: "";
+    content: "twitter";
     display: inline-block;
     width: 40px;
     height: 43px;
@@ -1096,7 +1096,7 @@ display: inline-block;
 }
 .ico-facebook {
     background: url(../img/facebook.png) no-repeat;
-    content: "";
+    content: "facebook";
     display: inline-block;
     width: 40px;
     height: 43px;
@@ -1106,7 +1106,7 @@ display: inline-block;
 
 .ico-linkedin {
     background: url(../img/in.png) no-repeat;
-    content: "";
+    content: "linkedin";
     display: inline-block;
     width: 40px;
     height: 43px;
@@ -1115,7 +1115,7 @@ display: inline-block;
 }
 .ico-google {
     background: url(../img/google.png) no-repeat;
-    content: "";
+    content: "google";
     display: inline-block;
     width: 40px;
     height: 43px;

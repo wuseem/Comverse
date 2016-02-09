@@ -104,7 +104,7 @@ margin:0 0 0 -16px;
 }
 .topright>a{
   color: gray;
-
+font-size: 14px;
 }
 .nav>li:hover>a{
   color: skyblue;
@@ -125,7 +125,7 @@ margin-left:auto;
 }
 .topright>select{ 
     border: 1px solid #ccc;
-    width: 65px;
+    width: 55px;
     margin: auto;
 
 
@@ -1223,14 +1223,14 @@ ul.footer-menu {
                                                           /*         MOBILE         */
                                                           /**************************/
 																/*MEDIA QUERIES*/
-.mobfooter{
-  display: none;
-}
-.mobile-navigation {
-    display: none;
+.successtext2mob{
+	display: none;
 }
 
-.main-nav-mobile ul {
+ .mobile-navigation {
+        display: none;
+    }
+    .main-nav-mobile ul {
     display: none;
 }
 
@@ -1238,51 +1238,112 @@ input[type=checkbox] {
     display:none;
 }
 
-.toprighmob{
-  display: none;
-  }
 
+.mobile-search-icon{
+	display: none;
+}
+.footernavmobile{
+	display: none;
+}
+.mobTOP
+{
+	display: none;
+}
+.mobcopyright{
+	display: none;
+}
+.mobsuccess-stories{
+	display: none;
+}
 @media all and (max-width:940px) {
-.mobfooter{
-  display: block;
-  text-align: center;
-   padding-top: 10px;
-
-}
-.mobicons{
-  margin-bottom: 15px;
-}
-.mobsubscribe{
-  margin-bottom: 15px;
-
-}
-.mobfooterbox{
-  margin:auto;
-  max-width: 260px;
-}
-h4{
-  color: #3195c9;
+	.mobbanner{
+	background-color: #46a2c7;
+	
+    padding-top: 20px;
+    margin-top: -25px;
+ 
+   
 }
 
-#mobsubscribe-submit{
-    background: #3498db;
-    border-radius: 3px;
-    border: none;
-    color: white;
-    line-height: 2.3em;
-    margin-left: -45px;
-    padding: 1px 10px;
-    /* position: absolute; */
-    cursor: pointer;
+	.mobcopyright{
+	display: block;
+	color: black;
+	text-align: center;
+	font-size: 14px;
 }
+.mobcopyright>a{color: black;}
+	h1{
+		margin-left: 5px;
+		font-size:34px;
+	}
+	h3{
+		margin-left: 5px;
+		font-size: 20px;
+
+	}
+	.LEARN-BUTTON{
+		margin-left: 5px;
+	}
+.mobTOP
+{
+	display:block;
+	float: right;
+	margin:-30px 0 0 0;
+}
+ .footernavmobile {
+            display: block;
+            background-color: #2C2C2C;
+            margin-bottom: 16px;
+            margin: 0;
+            list-style: none;
+            padding-left: 0;
+            font-size: 1.2rem;
+            text-align: center;
+        }
 
 
-  .mobile-navigation {
-        display: block;
+
+    .footernavmobile li {
+        color:white;
+        padding-left: 20px;
+        border-bottom: 1px solid black;
+        padding: 10px 0 10px 10px;
     }
 
+    .footernavmobile li:hover {
+        background-color: #BCBCBC;
+    }
 
-    label {
+    .footernavmobile li > a {
+        color: #FFF;
+        text-decoration: none;
+        outline: none;
+    }
+
+.topright{
+	display: none;
+}
+
+.navbar{
+	display: none;
+}
+.mobile-search-icon{
+	    float: right;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    margin: 5px;
+    padding: 6px 3px 0px 3px;
+    display: inline-block;
+}
+
+
+ .mobile-navigation {
+        display: block;
+    }
+label {
         display: block;
         border: 1px solid #d9d9d9;
         border-radius: 5px;
@@ -1294,7 +1355,13 @@ h4{
         cursor: pointer;
     }
 
-    
+    label.mobile-nav {
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        margin: 5px;
+        padding:5px;
+    }
 
     .icon-bar {
         display: block;
@@ -1309,17 +1376,16 @@ h4{
     }
 
     .main-nav-mobile {
-
         display: none;
         list-style: none;
         text-transform: uppercase;
         font: 1.2rem "Open Sans";
+        position: absolute;
+        left: 0;
         top:0;
         z-index: 1;
         width: 100%;
         padding: 0;
-        margin: auto;
-        
 
     }
 
@@ -1343,7 +1409,6 @@ h4{
     .main-nav-mobile label {
     background-color: white;
     margin: 0;
-    padding: 0 20px;
     height: 2rem;
     text-transform: uppercase;
     display: block;
@@ -1362,7 +1427,7 @@ h4{
         top:56px;
     }
 
-    input[type="checkbox"]:checked + div {
+ input[type="checkbox"]:checked + div {
         display: block;
         top:50px;
         left:-272px;
@@ -1376,23 +1441,30 @@ h4{
     }
 
 
-  .footer-block{
-    display: none;
-  }
-.nav{
-  display: none;
+footer{
+	display: none;
 }
-.topright{
-  display: none;
+
+
+
+
+
+
+
+.TOP{
+	display: none;
 }
-.toprighmob{
- display: inline-block;
- margin-left: 75px;
+
+
+.cubeslist{
+margin-right: 1.9em;
 }
+
 .cubes{
   display:block;
 }
 .cube{
+	width: 100%;
   display: block;
   margin: auto;
   margin-bottom: 5px;
@@ -1440,15 +1512,21 @@ margin: auto;
 }
 }
 @media all and (max-width:700px) {
+	.mobsuccess-stories{
+	display: block;
+	text-align: center;
+}
 .success-stories
 {
-   display: block;
+   display: none;
 
 }
-.success-stories>li
+.mobsuccess-stories>li
 {
-   margin-bottom: 10px;
+	text-align: center;
+   margin-bottom: 30px;
 }
+
 
 .logos1{
   margin: 0px 0px 0px 0px;
@@ -1457,16 +1535,76 @@ margin: auto;
   width: 320px;
 
 }
-.success-text2>a>div{
-width: 320px;
+.mobsuccess-stories{
+	text-align: center;
+display:block;
+ margin: 36px 0 36px 0px;
+     padding: inherit;
+
+}
+.mobsection-stories>section>div
+{
+
+  padding-top: 20px;
+}
+
+
+.mobsuccess-stories>li
+{
+   width: 340px;
+   height: 300px;
+   display: block;
+   background-color: white;
+ margin:auto;
+
+
+}
+
+}
+
+
+
+
+
+
+
+@media all and (max-width:710px) {
+	.do-list>li {
+
+
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
 }
 }
-@media all and (max-width:478px) {
+@media all and (max-width:600px) {
 
 .do-list>li{
   display: inline-block;
-  width: 162px;
-  height: 162px;
+  width: 160px;
+  height: 160px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+}
+@media all and (max-width:500px) {
+.mobcopyright{
+	display: block;
+	color: black;
+	text-align: center;
+	font-size: 10px;
+}
+.SOLUTION-BUTTON {
+   
+    font-size: 12px;
+}
+.do-list>li{
+  display: inline-block;
+  width: 130px;
+  height: 130px;
   text-align: center;
   vertical-align: middle;
 }

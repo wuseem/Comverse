@@ -1610,3 +1610,13 @@ display:block;
 }
 
 }
+@media all and (max-width:450px) {
+
+.do-list>li{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+  }

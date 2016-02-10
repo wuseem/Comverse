@@ -878,6 +878,48 @@ width: 102px;
   margin: 0px 0px 0 4px ;
   
 }
+.logopic1:hover{
+	background:white;
+  	transform: rotatex(180deg);
+ backface-visibility: hidden;
+   transition: all 0.5s; 
+}
+.logopic2:hover{
+	background:white;
+  	transform: rotatex(180deg);
+ backface-visibility: hidden;
+   transition: all 0.5s; 
+}
+.logopic1:hover{
+	background:white;
+  	transform: rotatex(180deg);
+ backface-visibility: hidden;
+   transition: all 0.5s; 
+}
+.logopic3:hover{
+	background:white;
+  	transform: rotatex(180deg);
+ backface-visibility: hidden;
+   transition: all 0.5s; 
+}
+.logopic4:hover{
+	background:white;
+  	transform: rotatex(180deg);
+ backface-visibility: hidden;
+   transition: all 0.5s; 
+}
+.logopic5:hover{
+	background:white;
+  	transform: rotatex(180deg);
+ backface-visibility: hidden;
+   transition: all 0.5s; 
+}
+.logopic6:hover{
+	background:white;
+  	transform: rotatex(180deg);
+ backface-visibility: hidden;
+   transition: all 0.5s; 
+}
 .quote{
   background: url(../img/quotegrey.png) no-repeat;
 
@@ -1333,7 +1375,8 @@ margin-bottom: -35px;
         }
 
 .footerlanguage{
-	background: rgba(221, 211, 203, 0.15);
+	    background: rgba(221, 211, 203, 0.15);
+    
     color: white;
     margin: 0px 0px 0px 10px;
     height: 20px;

@@ -219,6 +219,7 @@ margin: auto;
     background: white;
     padding: 8px 8px;
     box-shadow: 0px 1px 3px #666666;
+    color: black;
 }
 .Squares>a+a:hover>li{
     display: inline-block;
@@ -226,6 +227,7 @@ margin: auto;
     background: #3498db;
     padding: 8px 8px;
     box-shadow: 0px 1px 3px #666666;
+    color: white;
 }
 
 .cube{
@@ -1319,6 +1321,7 @@ input[type=checkbox] {
 	z-index: 20;
 	padding: 0 0 15px 0px;
 margin-bottom: -35px;
+background-size: cover;
 
    }
    .comverse-logo>img{

@@ -203,6 +203,8 @@ margin: auto;
 .Squares
 {
   margin-left:-2em;
+
+
 }
 .Squares>a>li{
   display: inline-block;
@@ -393,6 +395,7 @@ width: 100%;
     background:#1f8fc7;
     padding: 3px 20px;
     margin-bottom: 2em;
+    font-size: 20px;
 }
 .SOLUTION-BUTTON:hover{
 border-radius: 5px;
@@ -1256,15 +1259,39 @@ input[type=checkbox] {
 	display: none;
 }
 @media all and (max-width:940px) {
-	.mobbanner{
-	background-color: #46a2c7;
-	
-    padding-top: 20px;
-    margin-top: -25px;
- 
-   
+	.cubetext{
+		    height: 75px;
+	}
+
+.Squares{
+	    margin-top: 100px;
 }
 
+
+.section-banner{
+    background: url('../img/weDoBG.png') repeat center center ;
+}
+
+.mobsec{
+	background: url('../img/slide-bg-complexity.jpg') no-repeat center center ;
+	z-index: 20;
+	padding: 0 0 15px 0px;
+margin-bottom: -35px;
+
+   }
+   .comverse-logo>img{
+   	 	content:url(../img/comverse-logo-medium.png);
+   	 	margin-top: 20px;
+   }
+
+	.mobbanner{
+	background: url(../img/weDoBG.png) repeat  rgba(81, 153, 204, 0.9);
+    padding-top: 20px;
+    margin-top: -25px;
+}
+.cubeslist>li+li+li{
+	    margin-bottom: -5px;
+}
 	.mobcopyright{
 	display: block;
 	color: black;
@@ -1290,6 +1317,10 @@ input[type=checkbox] {
 	float: right;
 	margin:-30px 0 0 0;
 }
+.section-stories {
+	padding-bottom: 40px;
+	}
+
  .footernavmobile {
             display: block;
             background-color: #2C2C2C;
@@ -1301,7 +1332,13 @@ input[type=checkbox] {
             text-align: center;
         }
 
-
+.footerlanguage{
+	background: rgba(221, 211, 203, 0.15);
+    color: white;
+    margin: 0px 0px 0px 10px;
+    height: 20px;
+    width: 75px;
+}
 
     .footernavmobile li {
         color:white;
@@ -1415,9 +1452,9 @@ label {
     text-align: left;
     width: 100%;
     color: #585951;
-    border-bottom: 1px solid #dbdbdb;
-    border-top: 1px solid #fff;
-    font: 14px Arial;
+    border-bottom: 1px solid black;
+    border-top: 0px solid black;
+    font: 18px Arial;
     text-decoration: none;
     line-height: 2.1rem;
     }
@@ -1597,18 +1634,14 @@ display:block;
 	text-align: center;
 	font-size: 10px;
 }
-.SOLUTION-BUTTON {
-   
-    font-size: 12px;
-}
+
 .do-list>li{
   display: inline-block;
   width: 130px;
   height: 130px;
   text-align: center;
   vertical-align: middle;
+
 }
 }
-.hidden{
-  display: none;
-}
+

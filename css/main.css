@@ -630,8 +630,7 @@ display:flex;
         border-bottom: 1px solid grey;
     width: 300px;
     margin: 10px 0 0 10px;
-    backface-visibility: hidden;
-    transition: all 0.5s;  
+    
 }
 
 .success-text1>a>div:hover{
@@ -643,7 +642,7 @@ display:flex;
         border-bottom: 1px solid grey;
     width: 300px;
     margin: 10px 0 0 10px;
-  	transform: rotatey(180deg);
+  	
  	
 
 }
@@ -718,9 +717,41 @@ border-radius: 5px;
        width: 100px;
     height: 81px;
 }
+.logopic1:after,.logopic2:after,.logopic3:after,.logopic4:after,.logopic5:after,.logopic6:after{
+background: #3398CC url("../img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg") center center no-repeat;
+    content: "";
+    width: 100px; /*350px*/
+    height: 0;
+    transition: height 0.4s linear;
+    display: block;
+    position: absolute;
+    border-radius: 3px;
+    z-index:-1;
+}
+.logopic1:hover:after,.logopic2:hover:after,.logopic3:hover:after,.logopic4:hover:after,
+.logopic5:hover:after,.logopic6:hover:after
+{
+  height: 85px;
+  transform:translateY(-100%);
+  z-index: 1;
+}
 .logopic2 {
     margin: 0 10px 0 10px;
 }
+.success-text2>a:before,.success-text1>a:before{
+  background: #3398CC url("../img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg") center center no-repeat;
+    content: "";
+    width: 330px; /*350px*/
+    height: 0;
+    transition: height 0.5s ease-in-out;
+    display: block;
+    position: absolute;
+    border-radius: 3px;
+
+  }
+  .success-text2>a:hover:before,.success-text1>a:hover:before{
+    height: 200px;
+  }
 .success-text2>a>div{
   height: 110px;
       text-align: left;
@@ -730,8 +761,7 @@ border-radius: 5px;
         border-bottom: 1px solid grey;
     width: 300px;
     margin: 20px 0 0 10px;
-     backface-visibility: hidden;
-    transition: all 0.5s;  
+      
 }
 .success-text2>a>div:hover{
   height: 110px;
@@ -742,10 +772,7 @@ border-radius: 5px;
         border-bottom: 1px solid grey;
     width: 300px;
     margin: 20px 0 0 10px;
-     backface-visibility: hidden;
-    transition: all 0.5s;  
-
-	transform: rotatey(180deg);
+     
 }
 .success-text2>a>div>blockquote{
   height: 110px;
@@ -833,6 +860,20 @@ width: 102px;
  display: inline-block;
     margin: 0 0 0 8px;
 }
+.success-text3>a:before{
+ background: #3398CC url("../img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg") center center no-repeat;
+    content: "";
+    width: 210px; /*350px*/
+    height: 0;
+    transition: height 0.6s ease-in;
+    display: block;
+    position: absolute;
+    border-radius: 3px;
+}
+.success-text3>a:hover:before{
+  height: 204px;
+}
+
 .success-text3>a>div{
   height: 110px;
       text-align: left;
@@ -842,8 +883,7 @@ width: 102px;
     border-bottom: 1px solid grey;
     width:180px;
     margin: 20px 0 0 16px;
-     backface-visibility: hidden;
-    transition: all 0.5s;  
+     
 }
 .success-text3>a>div:hover{
   height: 110px;
@@ -854,7 +894,7 @@ width: 102px;
     border-bottom: 1px solid grey;
     width:180px;
     margin: 20px 0 0 16px;
- transform: rotatex(180deg);
+
 }
 .success-text3>a>div>blockquote{
   height: 110px;
@@ -880,48 +920,6 @@ width: 102px;
   margin: 0px 0px 0 4px ;
   
 }
-.logopic1:hover{
-	background:white;
-  	transform: rotatex(180deg);
- backface-visibility: hidden;
-   transition: all 0.5s; 
-}
-.logopic2:hover{
-	background:white;
-  	transform: rotatex(180deg);
- backface-visibility: hidden;
-   transition: all 0.5s; 
-}
-.logopic1:hover{
-	background:white;
-  	transform: rotatex(180deg);
- backface-visibility: hidden;
-   transition: all 0.5s; 
-}
-.logopic3:hover{
-	background:white;
-  	transform: rotatex(180deg);
- backface-visibility: hidden;
-   transition: all 0.5s; 
-}
-.logopic4:hover{
-	background:white;
-  	transform: rotatex(180deg);
- backface-visibility: hidden;
-   transition: all 0.5s; 
-}
-.logopic5:hover{
-	background:white;
-  	transform: rotatex(180deg);
- backface-visibility: hidden;
-   transition: all 0.5s; 
-}
-.logopic6:hover{
-	background:white;
-  	transform: rotatex(180deg);
- backface-visibility: hidden;
-   transition: all 0.5s; 
-}
 .quote{
   background: url(../img/quotegrey.png) no-repeat;
 
@@ -941,13 +939,16 @@ display: inline-block;
 
 }
 
+
 .TOP{
-	float:left;
-	margin-bottom: auto;
-	color: skyblue;
+  background-color: rgb(240,240,240);
+      text-align: center;
+    padding: 0px 650px 0px 2px;
+    margin: -38px 0px 0px 0px;
 }
-
-
+.TOP>a{
+  background-color: #2B2B2B;
+}
 
 
 
@@ -1617,6 +1618,9 @@ margin: auto;
 .success-text1>a>div{
   width: 320px;
 
+}
+.success-text1>a:after{
+width: 340px;
 }
 .mobsuccess-stories{
 	text-align: center;

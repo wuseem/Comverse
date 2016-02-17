@@ -1710,7 +1710,12 @@ display:block;
 {
    width: 98%;
    }
-
+.logos1>div > img {
+    width: 80px;
+  }
+  .success-text1>a>div {
+    width: 100%;
+  }
 
 .SOLUTION-BUTTON {
     font-size: 2px;

@@ -1694,4 +1694,18 @@ display:block;
 
 }
 }
+@media all and (max-width:480px) {
+.do-list>li{
+  display: inline-block;
+  width: 125px;
+  height: 130px;
+  text-align: center;
+  vertical-align: middle;
+
+}
+.mobsuccess-stories>li
+{
+   width: 300px;
+   }
+}
 

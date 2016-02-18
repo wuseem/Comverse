@@ -430,6 +430,8 @@ border-radius: 5px;
 .newsandeventslist{
 display: inline-block;
     padding: inherit;
+    width: 300px;
+    background-color: gray;
 }
 
 .newsandeventslist>li{

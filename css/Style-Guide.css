@@ -1,0 +1,603 @@
+body{
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.mainul>li{
+  margin-bottom: 40px;
+  margin-top: 40px;
+  display: block;
+  border-bottom: 1px solid black;
+  padding-bottom: 30px;
+      margin-left: auto;
+    margin-right: auto;
+}
+
+
+.navbar{
+  display: inline-block;
+}
+.nav{
+  padding: inherit;
+
+}
+.nav>li{
+   display: inline-block;
+  
+  padding-left: 0.5em;
+}
+.nav>li+li{
+  display: inline-block;
+  border-left: 1px solid #6699CC;
+  
+  padding-left: 0.5em;
+}
+.nav>li>a{
+  color: gray;
+}
+.topright>a{
+  color: gray;
+font-size: 14px;
+}
+.nav>li:hover>a{
+  color: skyblue;
+
+}
+
+
+
+.LEARN-BUTTON{
+    border-radius: 8px;
+    background: #3498db;
+    padding: 3px 20px;
+    box-shadow: 0px 1px 3px #666666;
+}
+.LEARN-BUTTON:hover{
+    border-radius: 8px;
+    background: skyblue;
+    padding: 3px 20px;
+    box-shadow: 0px 1px 3px #666666;
+}
+.Arrow
+{
+    margin-left: 15px;
+    margin-bottom: 0 auto ;
+}
+
+
+.cube{
+  text-align: left;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  display: inline-block;
+  width: 260px;
+  cursor: pointer;
+  padding: 10px 15px;
+  margin-right: 20px;
+  background: url('../img/slide-bg-complexity.jpg') no-repeat center center fixed;
+}
+.cube:hover{
+  opacity: 0.9;
+}
+
+.cubetext{
+  padding: 0;
+  height: 130px;
+  margin-top: 0;
+  font-size: 30px;
+}
+.green{
+  background: #32CD32;
+  opacity: 0.80;
+}
+
+.linkicon{
+    padding-right: 4px;
+    margin-bottom: -0.3em;
+}
+
+
+.img1>div{
+  height: 60px;
+  background: url(../img/solution_icon_smart-money.png) no-repeat center center;
+}
+.img1:hover div{
+  height: 60px;
+  background: url(../img/solution_icon_smart-money_hover.png) no-repeat center center;
+}
+.do-list{
+  background-color: #46a2c7;
+  list-style-type: none;
+  padding: 30px 0 20px 0;
+  width: 300px;
+  margin: auto;
+}
+.do-list li{
+  display: inline-block;
+  width: 152px;
+  height: 75px;
+  text-align: center;
+  vertical-align: middle;
+}
+.do-list > li > a > figure {
+  margin: 0 auto;
+  height: 60px;
+  text-align: center;
+}
+.img1:hover .texthover{
+  color:rgb(77, 196, 255);
+  }
+
+
+
+.newsandeventslist{
+display: inline-block;
+    padding: inherit;
+    width: 300px;
+  background: url('../img/news-and-events-bg.jpg') no-repeat center center fixed;
+}
+
+.newsandeventslist>li{
+display: inline-block;
+ width: 272px;
+ height:230px;
+margin: 0 0 0 0;
+}
+
+
+.allnews>div{
+  float: left;
+}
+.allnews>div:hover{
+  float: left;
+  color: black;
+}
+.allnews>div:before{
+  content: "";
+background:url(../img/eventListIconNews.png) no-repeat;
+width: 25px;
+height: 25px;
+display: block;
+float: left;
+}
+.allnews>div:hover:before{
+  content: "";
+background:url(../img/eventListIconNews_hover.png) no-repeat;
+width: 25px;
+height: 25px;
+display: block;
+float: left;
+}
+.day{
+  display: block;
+  background-color: #46a2c7;
+  border-radius: 5px;
+ 
+  border-bottom: 1px dashed #FFFFFF;
+  font-size: 40px;
+ 
+  text-align: center;
+}
+.month{
+  display: block;
+  background-color: #46a2c7; 
+  font-size: 20px;
+ border-radius: 5px;
+ 
+  text-align: center;
+}
+.date-event{
+  width: 55px;
+  padding:0;
+  float: left; 
+  text-align: center;
+  margin: -5px 9px 3px 0px;
+}
+.newsandeventicons{
+    margin-top: 0.9em;
+    margin-left: 5px;
+  }
+
+
+.newsandeventsarticle{
+  text-align: left;
+   background-color: rgba(255, 255, 255, 0.3) ;
+  opacity: 0.8;
+  border-radius: 5px;
+  -moz-box-shadow: 0 0 0px 0px #888;
+    -webkit-box-shadow: 0 0 0px 0px#888;
+    box-shadow: 0 0 0px 0px #888;
+    padding:16px 1px 25px 5px;
+}
+.newsandeventsarticle:hover{
+  text-align: left;
+   background-color: #FFFFFF;
+  opacity: 1;
+  border-radius: 5px;
+  -moz-box-shadow: 0 0 0px 0px #888;
+    -webkit-box-shadow: 0 0 0px 0px#888;
+    box-shadow: 0 0 0px 0px #888;
+    color: black;
+}
+
+
+
+
+
+.success-stories{
+display:flex;
+ margin: 36px 0 36px 0px;
+     padding: inherit;
+
+}
+.section-stories>section>div
+{
+
+  padding-top: 20px;
+}
+
+
+.success-stories>li
+{
+   width: 340px;
+   height: 300px;
+   display: inline-block;
+   background-color: white;
+   margin: auto;
+
+
+}
+
+.success-text1>a>div{
+  height: 110px;
+      text-align: left;
+    color: black;
+    font-size: 17px;
+    font-family: serif;
+        border-bottom: 1px solid grey;
+    width: 300px;
+    margin: 10px 0 0 10px;
+    
+}
+
+.success-text1>a>div:hover{
+  height: 110px;
+      text-align: left;
+    color: black;
+    font-size: 17px;
+    font-family: serif;
+        border-bottom: 1px solid grey;
+    width: 300px;
+    margin: 10px 0 0 10px;
+    
+  
+
+}
+.success-text1>a>div>blockquote{
+  height: 110px;
+      text-align: left;
+    color: black;
+    font-size: 17px;
+    font-family: serif;
+        border-bottom: 1px solid grey;
+    width: 300px;
+    margin: 10px 0 0 10px;
+    display: inline;
+
+   
+
+}
+
+.success-text1>a>div:before{
+  
+  content: "";
+background:url(../img/CB-JP-face.png) no-repeat;
+height: 100px;
+width: 100px;
+display: block;
+float: left;
+margin: 0 6px 0px 0px;
+border-radius: 5px;
+
+}
+.person-details {
+    display: inline-block;
+    width: 300px;
+}
+
+.person-details > p {
+  font-size: 14px;
+    color: black;
+    float: left;
+    height: 0px;
+     }
+.person-details > p+p {
+  display: inline-block;
+
+     }
+
+.person-details > p > a {
+    color: skyblue;
+    text-align: left;
+ display: inline-block;
+
+}
+.logos1{
+  height: 85px;
+    margin: -10px 0px 0px 0px;
+       padding-top: 16px;
+    
+}
+
+.person-logo {
+    float: right;
+      margin: -40px 0px 0px 0px;
+
+}
+.logos1>div{
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.logos1>div > img {
+       width: 100px;
+    height: 81px;
+}
+.logopic1:before,.logopic2:before,.logopic3:before{
+background: #3398CC url("../img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg") center center no-repeat;
+    content: "";
+    width: 100px; /*350px*/
+    height: 0;
+    transition: height 0.4s linear;
+    display: block;
+    position: absolute;
+    border-radius: 3px;
+    
+}
+.logopic1:hover:before,.logopic2:hover:before,.logopic3:hover:before
+{
+  height: 85px;
+ 
+
+}
+.quote{
+  background: url(../img/quotegrey.png) no-repeat;
+
+  height: 22px;
+  width: 32px;
+  display: inline-block;
+}
+.quote:hover{
+  background: url(../img/quoteblue.png);
+   height: 22px;
+  width: 32px;
+display: inline-block;
+
+}
+.success-text1>a:before{
+  background: #3398CC url("../img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg") center center no-repeat;
+    content: "";
+    width: 330px; /*350px*/
+    height: 0;
+    transition: height 0.5s ease-in-out;
+    display: block;
+    position: absolute;
+    border-radius: 3px;
+
+  }
+  .success-text1>a:hover:before{
+    height: 200px;
+  }
+
+
+
+
+  .footer-box {
+    margin: auto;
+    background-color: #3d3d3d;
+    width: 26%;
+    position: relative;
+    height: 350px;
+}
+
+.footer-box h4 {
+    color: #3195c9;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.footer-box-content >div+div{
+    color: gray;
+    display: block;
+}
+
+.footer-box-content:hover >div+div {
+  text-decoration: underline;
+    color:white;
+}
+
+.press-release {
+    border-bottom: 1px solid grey;
+        height: 37%;
+}
+
+.press-release h4 {
+    padding: 16px 0;
+    margin: 0 6px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.date-box-footer {
+    width: 60px;
+    height: 80px;
+    padding: 2px;
+    float: left;
+    margin: 0 10px 0 5px;
+}
+
+.footer-date {
+   font-size: 2.6rem;
+    margin: 0;
+    text-align: center;
+    line-height: 2.2rem;
+    font-weight: 400;
+}
+
+.footer-month {
+    font-size: 1.4rem;
+    margin: 0px;
+    text-align: center;
+}
+
+.latest-blog-post-text {
+    margin: 0 8px;
+    padding: 1px 5px;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.latest-blog-post-text p {
+    margin: 0 0 18px 0;
+}
+
+.subscribe {
+    position: relative;
+}
+
+#email {
+    width: 200px;
+    line-height: 2.3em;
+    border-radius: 3px;
+    border: none;
+    margin:0 5px 0 5px;
+    padding-left: 8px;
+    color: grey;
+    outline:none;
+}
+
+#subscribe-submit {
+  background: #3498db;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  line-height: 2.3em;
+  margin-left: -45px;
+  padding: 1px 10px;
+  position: absolute;
+  cursor: pointer;
+}
+#subscribe-submit:hover {
+  background: skyblue;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  line-height: 2.3em;
+  margin-left: -45px;
+  padding: 1px 10px;
+  position: absolute;
+  cursor: pointer;
+}
+.social-icons {
+    padding: 10px;
+       width: 100%;
+    position: absolute;
+    bottom:0;
+}
+
+
+.ico-youtube {
+    background: url(../img/youtube.png) no-repeat;
+    content: "youtube";
+    display: inline-block;
+    width: 40px;
+    height: 43px;
+    padding-right:1px;
+    padding-left:1px;
+}
+
+.ico-twitter {
+    background: url(../img/twitter.png) no-repeat;
+    content: "twitter";
+    display: inline-block;
+    width: 40px;
+    height: 43px;
+    padding-right:1px;
+    padding-left:1px;
+}
+.ico-facebook {
+    background: url(../img/facebook.png) no-repeat;
+    content: "facebook";
+    display: inline-block;
+    width: 40px;
+    height: 43px;
+    padding-right:1px;
+    padding-left:1px;
+}
+
+.ico-linkedin {
+    background: url(../img/in.png) no-repeat;
+    content: "linkedin";
+    display: inline-block;
+    width: 40px;
+    height: 43px;
+    padding-right:1px;
+    padding-left:1px;
+}
+.ico-google {
+    background: url(../img/google.png) no-repeat;
+    content: "google";
+    display: inline-block;
+    width: 40px;
+    height: 43px;
+    padding-right:1px;
+    padding-left:1px;
+}
+.ico-youtube:hover {
+    background: url(../img/youtubehover.png) no-repeat;
+    display: inline-block;
+  width: 40px;
+    height: 43px;
+    padding-right:1px;
+    padding-left:1px;
+}
+
+.ico-twitter:hover {
+    background: url(../img/twitterhover.png) no-repeat;
+    display: inline-block;
+   width: 40px;
+    height: 43px;
+    padding-right:1px;
+    padding-left:1px;
+}
+
+.ico-linkedin:hover {
+    background: url(../img/inhover.png) no-repeat;
+    display: inline-block;
+    width: 40px;
+    height: 43px;
+    padding-right:1px;
+    padding-left:1px;
+}
+.ico-facebook:hover {
+    background: url(../img/facebookhover.png) no-repeat;
+    display: inline-block;
+    width: 40px;
+    height: 43px;
+    padding-right:1px;
+    padding-left:1px;
+}
+
+.ico-google:hover {
+    background: url(../img/googlehover.png) no-repeat;
+    display: inline-block;
+    width: 40px;
+    height: 43px;
+    padding-right:1px;
+    padding-left:1px;
+}
+

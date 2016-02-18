@@ -88,6 +88,9 @@ margin:0 0 0 -16px;
   padding: inherit;
 
 }
+.mobile-search-textbox{
+  display: none;
+}
 .nav>li{
    display: inline-block;
   
@@ -1304,6 +1307,35 @@ input[type=checkbox] {
 	display: none;
 }
 @media all and (max-width:940px) {
+  .mobile-search{
+      float: right;
+      height: 30px;
+      width: 30px;
+      position: absolute;
+      top: 20px;
+      right: 10px;
+      margin: 5px;
+      padding: 6px 3px 0px 3px;
+      display: inline-block;
+      background: url(../img/searchBtnMobile.png) no-repeat center;
+      background-color: #e5e5e5;
+    }
+   .mobile-search-textbox{
+      width: 100%;
+      margin: auto;
+      margin-top: 15px;
+      margin-bottom: 10px;
+      height: 20px;
+      border-radius: 7px;
+    border: 1px solid #D2D2D2;
+    outline: none;
+    }
+    .comverse-header{
+      height: 100px;
+    }
+ input[type="checkbox"]:checked ~ input{
+    display: block;
+    }
 	.cubetext{
 		    height: 75px;
 	}
@@ -1315,6 +1347,8 @@ input[type=checkbox] {
 
 .section-banner{
     background: url('../img/weDoBG.png') repeat center center ;
+    padding-top: 100px;
+
 }
 
 .mobsec{

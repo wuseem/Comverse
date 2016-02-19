@@ -78,7 +78,9 @@ button {
 }
 .comverse-logo{
   display: inline-block;
-  width: 160px;
+  
+  width: 190px;
+
 margin:0 0 0 -16px;
 }
 .navbar{
@@ -174,6 +176,7 @@ margin: auto;
     padding: 0;
     max-width: 940px;
     width: auto;
+    overflow: hidden; 
     margin: 0 auto;
 }
 

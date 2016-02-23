@@ -698,7 +698,7 @@ border-radius: 5px;
 
      }
 
-.person-details > p > a {
+.person-details > p > p {
     color: skyblue;
     text-align: left;
  display: inline-block;
@@ -863,7 +863,7 @@ width: 102px;
 
      }
 
-.person-details3 > p > a {
+.person-details3 > p > p {
     color: skyblue;
     text-align: left;
  display: inline-block;

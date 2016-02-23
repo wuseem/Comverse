@@ -1312,7 +1312,13 @@ input[type=checkbox] {
 .mobsuccess-stories{
 	display: none;
 }
-@media all and (max-width:940px) {
+@media all and (max-width:955px) {
+	.success-text2>a:before,.success-text1>a:before{
+  
+    width: 340px; /*350px*/
+    
+
+  }
   .mobile-search{
       float: right;
       height: 30px;

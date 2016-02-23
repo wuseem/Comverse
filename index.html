@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <title>Comverse</title>
@@ -70,12 +70,13 @@
             </ul>
         </nav>           
         <label class="mobile-search" for="nav-mobile-search"></label>
-            <input type="checkbox" id="nav-mobile-search"> <label for="check" class="hidden">check</label>
-            <input type="text" class="mobile-search-textbox" alt="text"> <label for="text" class="hidden">text</label>
+            <label for="check" class="hidden">check</label><input type="checkbox" id="nav-mobile-search"> 
+            <label for="text" class="hidden">text</label><input type="text" class="mobile-search-textbox" alt="text"> 
 
         <div class="topright" >
-           <select >
            <label for="select" class="hidden">select</label>
+            <select >
+          
               <option value="eng">ENG</option>
               <option value="heb">HEB</option>
               <option value="arb">ARB</option>
@@ -84,8 +85,8 @@
           <form class="search" action="http://www.google.com/search">
 
               <div class="wrapper">
-   					 <input type="text" alt="text"> <label for="text" class="hidden">text</label>
-    			<button>     <img src="img/searchBtn.png" alt="Searchicon">  <label for="button" class="hidden">button</label></button>
+   					<label for="text" class="hidden">text</label> <input type="text" alt="text"> 
+    			<label for="button" class="hidden">button</label><button>     <img src="img/searchBtn.png" alt="Searchicon">  </button>
 				</div>
          </form>
      </div>
@@ -539,7 +540,7 @@ SUBSCRIBE TO COMVERSE NEWS
 
                 <form class="subscribe">
                     <h4>Subscribe to Comverse</h4>
-                    <input type="email" id="email" placeholder="Example@hotmail.com"><label for="formsubscribe" class="hidden">form</label>
+                    <label for="formsubscribe" class="hidden">form</label> <input type="email" id="email" placeholder="Example@hotmail.com">
                     <input type="submit" id="subscribe-submit" value="SIGN UP" text="SIGN UP"> <label for="submit" class="hidden">submit</label>
                 </form>
 

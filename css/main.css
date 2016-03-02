@@ -1030,7 +1030,7 @@ display: inline-block;
     height: 350px;
 }
 
-.footer-box h4 {
+.footer-box h2 {
     color: #3195c9;
     font-size: 20px;
     text-transform: uppercase;
@@ -1051,7 +1051,7 @@ display: inline-block;
     border-bottom: 1px solid grey;
 }
 
-.press-release h4 {
+.press-release h2{
     padding: 16px 0;
     margin: 0 6px;
     font-weight: 200;
@@ -1065,7 +1065,18 @@ display: inline-block;
     float: left;
     margin: 0 10px 0 5px;
 }
-
+.date-heading{
+   font-size: 2.6rem;
+    margin: 0;
+    text-align: center;
+    line-height: 2.2rem;
+    font-weight: 400;
+}
+.month-heading{
+     font-size: 1.4rem;
+    margin: -13px 0px 0px 0px;;
+    text-align: center;
+}
 .footer-date {
    font-size: 2.6rem;
     margin: 0;

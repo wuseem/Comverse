@@ -1065,18 +1065,14 @@ display: inline-block;
     float: left;
     margin: 0 10px 0 5px;
 }
-.date-heading{
+.date-heading h3{
    font-size: 2.6rem;
     margin: 0;
     text-align: center;
     line-height: 2.2rem;
     font-weight: 400;
 }
-.month-heading{
-     font-size: 1.4rem;
-    margin: -13px 0px 0px 0px;;
-    text-align: center;
-}
+
 .footer-date {
    font-size: 2.6rem;
     margin: 0;

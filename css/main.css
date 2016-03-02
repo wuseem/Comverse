@@ -1067,7 +1067,8 @@ display: inline-block;
 }
 .date-heading h3{
    font-size: 26px;
-    margin: 0;
+        margin: -7px 0px -5px 0px;
+
     text-align: center;
     line-height: 2.2rem;
     font-weight: 400;

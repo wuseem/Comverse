@@ -1140,97 +1140,61 @@ display: inline-block;
     padding: 10px;
     width: 230px;
     position: absolute;
-    bottom:0;
-}
-
-
-.ico-youtube {
-    background: url(../img/youtube.png) no-repeat;
-    content: "youtube";
-    display: inline-block;
-    width: 40px;
-    height: 43px;
-    padding-right:1px;
-    padding-left:1px;
+    bottom:10px;
 }
 
 .ico-twitter {
-    background: url(../img/twitter.png) no-repeat;
+    background: url(../img/socialMenuIcon-twitter.png) no-repeat;
     content: "twitter";
     display: inline-block;
     width: 40px;
-    height: 43px;
-    padding-right:1px;
-    padding-left:1px;
-}
-.ico-facebook {
-    background: url(../img/facebook.png) no-repeat;
-    content: "facebook";
-    display: inline-block;
-    width: 40px;
-    height: 43px;
+    height: 20px;
     padding-right:1px;
     padding-left:1px;
 }
 
 .ico-linkedin {
-    background: url(../img/in.png) no-repeat;
+    background: url(../img/socialMenuIcon-linkdin.png) no-repeat;
     content: "linkedin";
     display: inline-block;
     width: 40px;
-    height: 43px;
+    height: 20px;
     padding-right:1px;
     padding-left:1px;
 }
-.ico-google {
-    background: url(../img/google.png) no-repeat;
-    content: "google";
-    display: inline-block;
-    width: 40px;
-    height: 43px;
-    padding-right:1px;
-    padding-left:1px;
-}
+
 .ico-youtube:hover {
-    background: url(../img/youtubehover.png) no-repeat;
+    background: url(../img/socialMenuIcon-youtube_hover.png) no-repeat;
     display: inline-block;
   width: 40px;
-    height: 43px;
+    height: 20px;
+    padding-right:1px;
+    padding-left:1px;
+}
+
+.ico-youtube {
+    background: url(../img/socialMenuIcon-youtube.png) no-repeat;
+    display: inline-block;
+  width: 40px;
+    height: 20px;
     padding-right:1px;
     padding-left:1px;
 }
 
 .ico-twitter:hover {
-    background: url(../img/twitterhover.png) no-repeat;
+    background: url(../img/socialMenuIcon-twitter_hover.png) no-repeat;
     display: inline-block;
    width: 40px;
-    height: 43px;
+    height: 20px;
     padding-right:1px;
     padding-left:1px;
 }
 
 .ico-linkedin:hover {
-    background: url(../img/inhover.png) no-repeat;
+    background: url(../img/socialMenuIcon-linkdin_hover.png) no-repeat;
     display: inline-block;
     width: 40px;
-    height: 43px;
-    padding-right:1px;
-    padding-left:1px;
-}
-.ico-facebook:hover {
-    background: url(../img/facebookhover.png) no-repeat;
-    display: inline-block;
-    width: 40px;
-    height: 43px;
-    padding-right:1px;
-    padding-left:1px;
-}
-
-.ico-google:hover {
-    background: url(../img/googlehover.png) no-repeat;
-    display: inline-block;
-    width: 40px;
-    height: 43px;
+    height: 20px;
     padding-right:1px;
     padding-left:1px;
 }
@@ -1244,7 +1208,7 @@ display: inline-block;
     width: 656px;
     height: 20px;
     float: left;
-    margin-top:58px;
+    margin-top:85px;
     display: inline-block;
 }
 
